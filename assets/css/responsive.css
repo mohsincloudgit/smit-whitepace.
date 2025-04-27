@@ -1,0 +1,254 @@
+/* ----------- Mobile Devices ----------- */
+@media (max-width: 480px) {
+    .form-image {
+        display: none;
+    }
+
+    .hero-content h1 {
+        font-size: 45px;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+    }
+
+    .hero-content {
+        margin-bottom: 20px;
+    }
+
+    .sec-main-heading {
+        display: block;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .sec-main-heading h2 span {
+        font-size: 30px;
+    }
+
+    .sec-main-heading p {
+        width: 100%;
+    }
+
+    .slider-content-01 {
+        gap: 10px;
+
+    }
+
+    a.main-btn-02 {
+        font-size: 18px;
+    }
+
+    .accordion-main-heading {
+        display: block;
+        text-align: center;
+    }
+
+    .accordion-main-heading p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    a.btn-slider-01 {
+        font-size: 18px;
+    }
+
+    .highlight {
+        font-size: 20px;
+    }
+
+    .highlight-02 {
+        font-size: 20px;
+    }
+
+    .accordion-main-heading span {
+        font-size: 34px;
+    }
+
+    .question span {
+        font-size: 40px;
+    }
+
+    .question {
+        font-size: 22px;
+    }
+
+    .question::after {
+        font-size: 1.5rem;
+        padding: 6px 15px;
+    }
+
+    /* .accordion-main-heading span {
+        font-size: 40px;
+    } */
+
+    .container-accordion {
+        border-radius: 70px;
+    }
+
+    .footer-menu ul {
+        display: block;
+        font-size: 22px;
+    }
+
+    .footer-social-icons {
+        float: none;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .footer-desc ul li {
+        font-size: 16px;
+    }
+
+    .footer-desc ul li a {
+        font-size: 16px;
+    }
+
+    .footer-main-bg {
+        border-radius: 0;
+        text-align: center;
+    }
+
+    form.footer-form {
+        display: grid;
+        gap: 10px;
+    }
+
+    .footer-desc span {
+        font-size: 30px;
+    }
+
+    button.main-btn-02 {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .footer-desc-02 input {
+        padding: 10px 15px;
+    }
+
+    .footer-desc-02 {
+        padding: 30px;
+        justify-self: auto;
+    }
+
+
+}
+
+/* ----------- Small Tablets / Phones Landscape ----------- */
+@media (max-width: 767px) {
+    .form-image {
+        display: none;
+    }
+
+    .footer-main-bg {
+        text-align: center;
+    }
+
+    .footer-menu ul {
+        display: block;
+    }
+
+    .footer-menu ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-social-icons {
+        float: none;
+        justify-self: center;
+    }
+
+    .footer-desc-02 {
+        padding: 20px;
+    }
+
+    button.main-btn-02 {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .accordion-main-heading p {
+        width: 50%;
+    }
+
+    .accordion-main-heading {
+        display: block;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .accordion-main-heading p {
+        width: 100%;
+    }
+
+    .question span {
+        font-size: 40px;
+    }
+
+    .question {
+        font-size: 22px;
+    }
+
+    .question::after {
+        padding: 5px 18px;
+    }
+
+    .accordion-main-heading span {
+        font-size: 36px;
+    }
+
+    .sec-main-heading span {
+        font-size: 36px;
+    }
+
+    .sec-main-heading {
+        display: block;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .sec-main-heading p {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 55px;
+        text-align: center;
+
+    }
+
+    .hero-content p {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .hero-content {
+        margin-bottom: 26px;
+    }
+
+    .hero-content {
+        justify-items: center;
+    }
+
+    section.sec-hero-01 {
+        padding: 0;
+    }
+
+}
+
+/* ----------- Tablets ----------- */
+@media (max-width: 1024px) {
+    .main-menu {
+        align-items: flex-start;
+    }
+
+    .form-image img {
+        margin: 0;
+    }
+
+}
+
+/* ----------- Laptops / Desktops ----------- */
+@media (min-width: 1025px) {}
