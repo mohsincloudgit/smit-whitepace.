@@ -4,6 +4,10 @@
         display: none;
     }
 
+    .slider-content-02 {
+        display: grid;
+    }
+
     .service-sec-01 {
         background-image: none;
     }
