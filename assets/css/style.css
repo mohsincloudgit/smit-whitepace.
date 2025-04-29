@@ -820,3 +820,22 @@ a.main-btn-02:hover {
 .quick-links li a {
     font-size: 18px;
 }
+
+.coopyright {
+    padding: 30px 100px;
+}
+
+ul.footer-bottom {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.footer-bottom li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* responsive */
