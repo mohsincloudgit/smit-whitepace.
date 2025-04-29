@@ -13,7 +13,7 @@ $(document).ready(function () {
         slidesToShow: 4,
         slidesToScroll: 1,
         dots: false,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 0,
         speed: 2000,
         arrows: false,
@@ -21,14 +21,14 @@ $(document).ready(function () {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false,
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -38,7 +38,7 @@ $(document).ready(function () {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1
                 }
             }

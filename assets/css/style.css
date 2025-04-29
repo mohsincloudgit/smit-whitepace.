@@ -169,7 +169,7 @@ a.main-btn-02:hover {
     background-origin: content-box;
 }
 
-.service-content h1 {
+.service-content h2 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: -40px;
@@ -207,7 +207,7 @@ a.main-btn-02:hover {
     padding: 30px 0px;
 }
 
-.service-content-2 h1 {
+.service-content-2 h2 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: -40px;
@@ -252,7 +252,7 @@ a.main-btn-02:hover {
     background-color: #043873;
 }
 
-.service-content-3 h1 {
+.service-content-3 h2 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: -60px;
@@ -284,7 +284,7 @@ a.main-btn-02:hover {
 }
 
 /* sec-4 */
-.service-content-4 h1 {
+.service-content-4 h2 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: -40px;
@@ -324,7 +324,7 @@ a.main-btn-02:hover {
     text-align: center;
 }
 
-.service-content-5 h1 {
+.service-content-5 h2 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: -40px;
@@ -420,7 +420,7 @@ a.main-btn-02:hover {
     text-align: center;
 }
 
-.service-content-6 h1 {
+.service-content-6 h2 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: -40px;
@@ -458,7 +458,7 @@ a.main-btn-02:hover {
 
 
 /* sec-7 */
-.service-content-7 h1 {
+.service-content-7 h2 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: -40px;
@@ -499,7 +499,7 @@ a.main-btn-02:hover {
     text-align: center;
 }
 
-.service-content-8 h1 {
+.service-content-8 h2 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: -40px;
@@ -671,7 +671,7 @@ a.main-btn-02:hover {
     padding: 50px 0;
 }
 
-.service-content-11 h1 {
+.service-content-11 h2 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: -40px;
@@ -719,7 +719,7 @@ a.main-btn-02:hover {
 }
 
 .slider-content-01 {
-    border-bottom: 1px solid #212529;
+    border-bottom: 1px solid #043873;
     padding: 10px 0;
 }
 
@@ -736,11 +736,13 @@ a.main-btn-02:hover {
 
 .client-details h4 {
     font-size: 22px;
+    text-align: left;
 }
 
 .client-details p {
     margin: 0;
     font-size: 14px;
+    text-align: left;
 }
 
 .slider-content.slick-slide.slick-current.slick-active .slider-box-service {

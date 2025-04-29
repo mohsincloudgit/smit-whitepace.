@@ -4,6 +4,23 @@
         display: none;
     }
 
+    .service-sec-01 {
+        background-image: none;
+    }
+
+    .header-btn a {
+        display: block !important;
+        margin: 10px 0;
+    }
+
+    .service-content-5-1 ul li {
+        font-size: 14px;
+    }
+
+    .header-btn {
+        display: inline-grid;
+    }
+
     .hero-content h1 {
         font-size: 45px;
     }
@@ -36,7 +53,11 @@
     }
 
     a.main-btn-02 {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    a.main-btn-01 {
+        font-size: 16px;
     }
 
     .accordion-main-heading {
@@ -133,11 +154,44 @@
         justify-self: auto;
     }
 
+    .client-details h4 {
+        font-size: 18px;
+    }
+
+    .client-details p {
+        font-size: 12px;
+    }
+
+    .slider-content-01 p {
+        text-align: left;
+    }
+
+    .slider-content-01 img {
+        padding: 10px 0;
+        width: 40px;
+    }
+
 
 }
 
 /* ----------- Small Tablets / Phones Landscape ----------- */
 @media (max-width: 767px) {
+    .navbar-toggler {
+        color: #fff
+    }
+
+    .service-sec-02 .row {
+        flex-direction: column-reverse;
+    }
+
+    .service-sec {
+        text-align: center;
+    }
+
+    .service-sec-04 .row {
+        flex-direction: column-reverse;
+    }
+
     .form-image {
         display: none;
     }
@@ -293,39 +347,39 @@
         display: none;
     }
 
-    .service-content h1 {
+    .service-content h2 {
         margin-bottom: 0;
     }
 
-    .service-content-2 h1 {
+    .service-content-2 h2 {
         margin-bottom: 0;
     }
 
-    .service-content-3 h1 {
+    .service-content-3 h2 {
         margin-bottom: 0;
     }
 
-    .service-content-4 h1 {
+    .service-content-4 h2 {
         margin-bottom: 0;
     }
 
-    .service-content-5 h1 {
+    .service-content-5 h2 {
         margin-bottom: 0;
     }
 
-    .service-content-6 h1 {
+    .service-content-6 h2 {
         margin-bottom: 0;
     }
 
-    .service-content-7 h1 {
+    .service-content-7 h2 {
         margin-bottom: 0;
     }
 
-    .service-content-8 h1 {
+    .service-content-8 h2 {
         margin-bottom: 0;
     }
 
-    .service-content-9 h1 {
+    .service-content-9 h2 {
         margin-bottom: 0;
     }
 
@@ -337,15 +391,35 @@
         font-size: 16px;
     }
 
-    .service-content h1 {
+    .service-content h2 {
         font-size: 40px;
     }
 
     .service-content p {
         font-size: 16px;
     }
-    .service-content-2 h1 {
-        font-size: 40px;}
+
+    .service-content-2 h2 {
+        font-size: 40px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .coopyright {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .quick-links {
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .navbar-collapse {
+        padding: 20px 10px;
+    }
 
 
 
