@@ -249,70 +249,106 @@
     }
 
 
-    .service-content span::after{
-        display: none;
-    }
-    .service-content-2 span::after{
-        display: none;
-    }
-    .service-content-3 span::after{
-        display: none;
-    }
-    .service-content-4 span::after{
+    .service-content span::after {
         display: none;
     }
 
-    .service-content-5 span::after{
+    .service-content-2 span::after {
         display: none;
     }
-    .service-content-6 span::after{
+
+    .service-content-3 span::after {
         display: none;
     }
-    .service-content-7 span::after{
+
+    .service-content-4 span::after {
         display: none;
     }
-    .service-content-8 span::after{
+
+    .service-content-5 span::after {
         display: none;
     }
-    .service-content-9 span::after{
+
+    .service-content-6 span::after {
         display: none;
     }
-    .service-content-10 span::after{
+
+    .service-content-7 span::after {
         display: none;
     }
-    .service-content-11 span::after{
+
+    .service-content-8 span::after {
+        display: none;
+    }
+
+    .service-content-9 span::after {
+        display: none;
+    }
+
+    .service-content-10 span::after {
+        display: none;
+    }
+
+    .service-content-11 span::after {
         display: none;
     }
 
     .service-content h1 {
         margin-bottom: 0;
     }
+
     .service-content-2 h1 {
         margin-bottom: 0;
     }
+
     .service-content-3 h1 {
         margin-bottom: 0;
     }
+
     .service-content-4 h1 {
         margin-bottom: 0;
     }
+
     .service-content-5 h1 {
         margin-bottom: 0;
     }
+
     .service-content-6 h1 {
         margin-bottom: 0;
     }
+
     .service-content-7 h1 {
         margin-bottom: 0;
     }
+
     .service-content-8 h1 {
         margin-bottom: 0;
     }
+
     .service-content-9 h1 {
         margin-bottom: 0;
     }
-        
-    
+
+    .hero-content h1 {
+        font-size: 45px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .service-content h1 {
+        font-size: 40px;
+    }
+
+    .service-content p {
+        font-size: 16px;
+    }
+    .service-content-2 h1 {
+        font-size: 40px;}
+
+
+
 }
 
 /* ----------- Laptops / Desktops ----------- */
