@@ -58,6 +58,7 @@ a.main-btn-01:hover {
     color: #4F9CF9;
     background: #FFE492;
     transition: 0.5s ease;
+    transform: scale(1.1);
 }
 
 /* Custom styles for hover effect */
@@ -125,6 +126,7 @@ a.main-btn-02:hover {
     color: #000;
     background: #4F9CF9;
     transition: 0.5s ease;
+    transform: scale(1.1);
 }
 
 .hero-content h1 {
@@ -403,8 +405,9 @@ a.main-btn-02:hover {
 }
 
 .service-sec-06 {
-    background-image: url(/assets/images/service-bg01.png);
+    background-image: url(assets/images/service-bg01.png);
     background-repeat: no-repeat;
+    background-blend-mode: multiply;
     mix-blend-mode: multiply;
     /* background-origin: content-box; */
     background-size: contain;
@@ -620,6 +623,7 @@ a.main-btn-02:hover {
 
 .slick-initialized .slick-slide {
     display: block;
+    justify-items: center;
 }
 
 .slick-loading .slick-slide {
