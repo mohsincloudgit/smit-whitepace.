@@ -76,6 +76,7 @@ a.main-btn-01:hover {
     /* padding: 15px; */
     transition: background-color 0.3s ease;
     z-index: 1000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -5px;
 }
 
 /* Scrolled class */
