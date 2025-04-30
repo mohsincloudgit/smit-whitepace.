@@ -1,2 +1,2 @@
 # Live Link 
-https://mohsincloudgit.github.io/whitepace-saas/ 
+https://mohsincloudgit.github.io/smit-whitepace./ 
