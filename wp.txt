@@ -1,0 +1,37 @@
+//  to identify folder/directory location
+<?php echo get_template_directory_uri(); ?>/
+<?php bloginfo('template_directory'); ?>/
+
+//  to display identify header
+<?php get_header(); ?>
+<?php get_header( 'inner' ); ?>
+
+//  to display identify footer
+<?php get_footer(); ?>
+<?php get_footer('inner'); ?>
+
+//  to desplay menu option on appearance 
+// add coma to add more menu after 'Top Menu')
+
+
+<?php 
+register_nav_menus( array(
+    'primary-menu'=> 'Top Menu' )
+)
+?>
+
+// remove header menu and add menu from appearance  and add on custom header this php code 
+<?php wp_nav_menu( array(
+	'theme_location' => 'primary-menu'
+	, 'menu_class' => 'navbar-navmenu'
+)) ?>
+
+//to target main page link 
+<a href="<?php echo site_url(); ?>" <i> Home Page</i></a>
+
+// to get nav menu list target on content 
+<?php the_title(); ?>
+// to get page content from wp-page content
+<?php the_content(); ?>
+
+
